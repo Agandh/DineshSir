@@ -1,0 +1,203 @@
+ansible win -i hosts -m win_ping
+
+ansible windows -i hosts -m raw -a "ping 8.8.8.8" -u dinesh -k 
+
+[win]
+win-rahul
+[win:vars]
+ansible_user= "administrator"
+ansible_password= "ntms321#"
+ansible_port= 5985
+ansible_connection= winrm
+ansible_winrm_server_cert_validation= ignore
+ansible_winrm_transport= ntlm
+i-Installation of ansible and windows configuration/host.ym
+
+
+
+ 1  ls
+    2  apt-getupdate
+    3  man apt
+    4  apt-get
+    5  apt-getupdate
+    6  apt-get update
+    7  apt-get update powershell
+    8  apt-get list
+    9  install
+   10  apt-install
+   11  aptget-install
+   12  apt-get update
+   13  apt-get install
+   14  apt-get install software-properties-common
+   15  sudo apt-add-repository ppa:ansible/ansible
+   16  ansibe --version
+   17  ansible --version
+   18  apt install ansible
+   19  sudo apt-get update
+   20  sudo apt-add-repository ppa:ansible/ansible
+   21  ansible --version
+   22  cat /etc/ansible/hosts
+   23  vi /etc/apt/sources.list
+   24  vi /etc/ansible/ansible.cfg
+   25  clear
+   26  vi /etc/ansible/ansible.cfg
+   27  ad-hoc command
+   28  ansible win-rahul setup
+   29  ansible win-rahul -m setup
+   30  vi /etc/ansible/hosts
+   31  vi /etc/hosts
+   32  vi /etc/ansible/hosts
+   33  ping win-rahul
+   34  ping 192.168.1.31
+   35  ping 192.168.1.36
+   36  ping win-rahul
+   37  vi /etc/hosts
+   38*
+   39  vi /etc/ansible/hosts
+   40*
+   41  service ansible restart
+   42  systemctl ansible status
+   43  vi /etc/ansible/hosts
+   44  ansible win-rahul -m setup
+   45  ansible win -m setup
+   46  ansible [win] -m setup
+   47  vi /etc/ansible/hosts
+   48  ansible windows -m setup
+   49  ansible [windows] -m setup
+   50  vi /etc/ansible/hosts
+   51  ansible [windows] -m setup
+   52  ansible windows -m setup
+   53  ansible windows -i hosts -m win_ping
+   54  clear
+   55  vi /etc/ansible/hosts
+   56  ansible windows -m setup
+   57  ansible win -m setup
+   58  ping win-rahul
+   59  vi /etc/ansible/hosts
+   60  ansible win -m setup
+   61  apt install python-pip
+   62  python --version
+   63  ansible win -m setup
+   64  pip install "pywinrm>=0.3.0"
+   65  ansible win -m setup
+   66  ansible windows -i hosts -m win_ping
+   67  clear
+   68  vi /etc/ansible/hosts
+   69  ansible windows -i hosts -m win_ping
+   70  ansible win -m setup
+   71  vi /etc/ansible/hosts
+   72  ansible win -m setup
+   73  vi /etc/ansible/hosts
+   74  ansible win -m setup
+   75  vi /etc/ansible/hosts
+   76  ansible win -m setup
+   77  vi /etc/ansible/hosts
+   78  ansible win -m setup
+   79  cls
+   80  clear
+   81  ansible win -m setup
+   82  vi /etc/ansible/hosts
+   83  ansible win -m setup
+   84  ansible win -i hosts -m win_ping
+   85  clear
+   86  vi /etc/ansible/ansible.cfg
+   87  ansible win -m setup
+   88  vi /etc/ansible/hosts
+   89  ansible all -i hosts -m win_ping
+   90  ansible all -i host -m win_ping
+   91  clear
+   92  ansible win -m setup
+   93  ansible all -i host -m win_ping
+   94  ansible all -i hosts -m win_ping
+   95  cd /etc/host
+   96  ls
+   97  cd .
+   98  cd/
+   99  ls
+  100  pwd
+  101  vi /etc/ansible/hosts
+  102*
+  103  ansible win -m setup
+  104  vi /etc/ansible/hosts
+  105  ansible win -m setup
+  106*
+  107  clear
+  108  vi /etc/ansible/hosts
+  109  ansible win1 -i hosts -n raw -a "ping 192.168.1.63"
+  110  ansible win1 -i hosts -m raw -a "ping 192.168.1.63"
+  111  ansible win1 -i hosts -m raw -a "ping 192.168.1.63" -u agandh -k
+  112  vi /etc/ansible/hosts
+  113  ansible win1 -i hosts -m raw -a "ping 192.168.1.63" -u agandh -k
+  114  ansible win1 -i hosts -m raw -a "ping 192.168.1.63"
+  115  vi /etc/ansible/hosts
+  116  vi /etc/ansible/ansible.cfg
+  117  ansible win1 -i hosts -m raw -a "ping 8.8.8." -u agandh -k
+  118  vi /etc/ansible/ansible.cfg
+  119  vi /etc/ansible/hosts
+  120  ansible win1 hosts -m raw -a "ping 8.8.8." -u agandh -k
+  121  ansible win1  -m raw -a "ping 8.8.8." -u agandh -k
+  122  ansible win1  -m raw -a "ping 8.8.8." -u administrator -k
+  123  ansible win1  -m raw -a "ping 192.168.1.63" -u administrator -k
+  124  vi /etc/ansible/hosts
+  125  ping win1-rahul
+  126  ping win-rahul
+  127  vi /etc/ansible/hosts
+  128  ansible win1  -m raw -a "ping 192.168.1.63" -u administrator -k
+  129  ansible win1 -i hosts -m script -a "test.ps1" -u administrator -k
+  130  notepad
+  131  touch test.ps1
+  132  vi test.ps1
+  133  ansible win1 -i hosts -m script -a "test.ps1" -u administrator -k
+  134  ansible win1 -m script -a "test.ps1" -u administrator -k
+  135  ansible win1 -i hosts -m script -a "test.ps1" -u administrator -k
+  136  vi test.ps1
+  137  vi /etc/ansible/hosts
+  138  pwd
+  139  mkdir /home/agandh/gitclonedir
+  140  cd /home/agandh/gitclonedir
+  141  man git
+  142  git-clone https://github.com/Agandh/ansiclass.git
+  143  man git
+  144  git-clone
+  145  git clone https://github.com/Agandh/ansiclass.git
+  146  ls
+  147  ls /ansiclass
+  148  cd ansiclass/
+  149  ls
+  150  cd i-Installation\ of\ ansible\ and\ windows\ configuration/
+  151  ls
+  152  cd \
+  153  cd /root
+  154  ansible win1 -i hosts -m script -a "test.ps1" -u administrator -k
+  155  cat /home/agandh/gitclonedir/ansiclass/i-Installation\ of\ ansible\ and\ windows\ configuration/host.yml
+  156  ansible win1 -i /home/agandh/gitclonedir/ansiclass/i-Installation\ of\ ansible\ and\ windows\ configuration/host.yml -m script -a "test.ps1" -u administrator -k
+  157  ansible mywin1 -i /home/agandh/gitclonedir/ansiclass/i-Installation\ of\ ansible\ and\ windows\ configuration/host.yml -m script -a "test.ps1" -u administrator -k
+  158  cd /home/agandh/gitclonedir/ansiclass/i-Installation\ of\ ansible\ and\ windows\ configuration
+  159  ls
+  160  ansible mywin1 -i host.yml -m raw -a "mkdir c:\demo10"
+  161  ansible mywin1 -i host.yml -m raw -a "mkdir c:\demo10" -u administrator -k
+  162  cat host.yml
+  163  vi host.yml
+  164  ansible mywin1 -i host.yml -m raw -a "mkdir c:\demo10"
+  165  vi host.yml
+  166  cat host.yml
+  167  mywin1:
+  168  ansible mywin1 -i host.yml -m raw -a "mkdir c:\demo10"
+  169  clear
+  170  ansible mywin1 -i host -m raw -a "mkdir c:\demo10"
+  171  ls
+  172  ansible mywin1 -i host.yml -m raw -a "mkdir c:\demo10"
+  173  cat host.yml
+  174  vi host.yml
+  175  ansible mywin1 -i host.yml -m raw -a "mkdir c:\demo10"
+  176  ansible mywin1 -i host.yml -m raw -a "mkdir c:\demo10" -u administator -k
+  177*
+  178  ping win-rahul
+  179  cat host.yml
+  180  ansible mywin1 -i host.yml -m raw -a "mkdir c:\demo10"
+  181  cat host.yml
+  182  vi host.yml
+  183  ansible mywin1 -i host.yml -m raw -a "mkdir c:\demo10"
+  184  ansible mywin1 -i host.yml -m raw -a "mkdir c:\demo11"
+  185  history
+root@ubuntuserver:/home/agandh/gitclonedir/ansiclass/i-Installation of ansible and windows configuration#
